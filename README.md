@@ -13,7 +13,7 @@ Cleaning: 32 exact duplicates + 3 conflicting repeated `shipment_id`s removed (�
 python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 cp .env.example .env        # then paste your Slack webhook URL into .env
-jupyter notebook MapleFreight_Delivery_Delay_Prediction_<your_id>.ipynb   # Kernel > Restart & Run All
+jupyter notebook MapleFreight_Delivery_Delay_Prediction_c0969478.ipynb   # Kernel > Restart & Run All
 ```
 Without a webhook the notebook still runs and prints a preview of the message instead of sending it.
 
@@ -53,4 +53,4 @@ Treat snow/storm at dispatch as a trigger for buffers and customer pre-warnings;
 - **How I verified:** I re-ran the notebook from a clean kernel, checked the quoted figures in the written findings against the printed outputs, and confirmed no webhook URL appears in the repo or outputs.
 
 ## Repository contents
-`MapleFreight_Delivery_Delay_Prediction_c0969478.ipynb` · `README.md` · `screenshots` · `requirements.txt` · `.gitignore` · `.env.example` · `maplefreight_delivery_delay_dataset.csv`
+`MapleFreight_Delivery_Delay_Prediction_c0969478.ipynb` · `README.md` · `screenshots` · `requirements.txt` · `.gitignore` · `maplefreight_delivery_delay_dataset.csv`
